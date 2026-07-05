@@ -30,6 +30,10 @@ sh install.sh
 ```
 
 ## [Data preparation]
+### MVP dataset
+You can download MVP dataset from this [link](https://mvp-dataset.github.io/), and put these two .h5 files in MVP folder.
+The input & output resolution is 2048.
+
 ### PCN dataset
 ❗Tips: If you already have PCN dataset, you should change the data path in train_pcn.py and test_pcn.py:
 ```
@@ -39,13 +43,8 @@ __C.DATASETS.SHAPENET.COMPLETE_POINTS_PATH  =  './data/PCN/%s/complete/%s/%s.pcd
 Otherwise, you need to download PCN dataset from [here](https://gateway.infinitescript.com/s/ShapeNetCompletion), 
 and then unzip it and put it under ./data.
 
-### MVP dataset
-You can download MVP dataset from this [link](https://mvp-dataset.github.io/), and put these two .h5 files in MVP folder.
-The input & output resolution is 2048.
-
 ### PlantPCom dataset
 You can download PlantPCom dataset from this [link](https://drive.google.com/file/d/1aJSs3iaMcyP2C7Hkzo98SDxwBytxeigB/view?usp=sharing).
-
 
 ❗After data preparation, the overall directory structure should be:
 ```
@@ -59,7 +58,6 @@ You can download PlantPCom dataset from this [link](https://drive.google.com/fil
 │   │   ├──MVP_Train_CP.h5
 ├──.......
 ```
-
 
 ## [Acknowledgement]
 This repo is heavily based on [PCN](https://github.com/qinglew/PCN-PyTorch), [SeedFormer](https://github.com/hrzhou2/seedformer), [SnowflakeNet](https://github.com/AllenXiangX/SnowflakeNet), [AnchorFormer](https://github.com/chenzhik/AnchorFormer), [PointAttN](https://github.com/ohhhyeahhh/PointAttN), [ODGNet](https://github.com/corecai163/ODGNet), [CRA-PCN](https://github.com/EasyRy/CRA-PCN), and [SymmCompletion](https://github.com/HKUST-SAIL/SymmCompletion/tree/main).
