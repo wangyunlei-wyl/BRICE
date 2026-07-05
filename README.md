@@ -2,7 +2,7 @@
 <h1>BRICE: Brain-inspired Recurrent Illusory Contour Encoder for Point Cloud Completion</h1>
 </div>
 
-![example](./mvp_vis.png) 
+![example](./mvp_vis.jpg) 
 
 ## [BRICE]
 
