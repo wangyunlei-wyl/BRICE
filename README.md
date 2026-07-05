@@ -2,7 +2,7 @@
 <h1>BRICE: Brain-inspired Recurrent Illusory Contour Encoder for Point Cloud Completion</h1>
 </div>
 
-![example](./vis.png) 
+![example](./mvp_vis.png) 
 
 ## [BRICE]
 
@@ -49,7 +49,7 @@ You can download PlantPCom dataset from this [link](https://drive.google.com/fil
 
 ❗After data preparation, the overall directory structure should be:
 ```
-│CRA-PCN/
+│BRICE/
 ├──datasets/
 ├──data/
 │   ├──PCN/
