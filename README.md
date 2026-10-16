@@ -11,6 +11,8 @@ This repo contains a PyTorch implementation for **BRICE: Brain-inspired Recurren
 ## [News]
 **[2026-07-05]**  We have uploaded the README.md document.
 
+**[2026-10-16]**  We have updated part of the training and evaluation code and will release the full code upon publication.
+
 ## [Installation]
 ❗Tips: If you have a configured virtual environment for [CRA-PCN](https://github.com/EasyRy/CRA-PCN), you can reuse it instead of installing a new one.
 ### Requirements
