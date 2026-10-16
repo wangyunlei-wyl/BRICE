@@ -1,0 +1,10 @@
+easydict
+tqdm
+h5py
+matplotlib
+numpy
+open3d
+opencv-python
+pprint
+scipy
+pytorch==2.4.1
